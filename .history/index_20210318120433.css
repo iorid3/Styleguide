@@ -1,0 +1,134 @@
+body{
+ margin:0;
+ padding: 0%;
+ width:100vw;
+ height:100vh;
+ background-color: #FFFDFA;
+}
+
+
+.maintitle{
+    font-size: 150px;
+    font-family: 'Permanent Marker';
+    font-style: oblique;
+}
+/* main{
+    display: flex;
+    flex-direction: row;
+} */
+
+.container {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+    align-items: center ;
+    justify-content: space-around;
+}
+
+.box{
+    display:flex;
+    flex-direction: row;
+    margin:100px;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:100%;
+    margin:70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.column{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logotext{
+   font-family: "Wendy one";
+   font-size: 40px;
+   margin-top:100px;
+}
+
+
+
+.logoname{
+   width:360px;
+   height:360;
+ }
+
+.circle{
+    background-color: aqua;
+    width:100px;
+    height:100px;
+    margin:20px;
+    border-radius: 50px;
+}
+
+.color1{
+    background-color: #AFD3D3;
+}
+
+.color2{
+    background-color: #84ADA7;
+}
+
+.color3{
+    background-color:#00809B;
+}
+
+.color4{
+    background-color:#1C75BC;
+}
+
+
+.horizontal1{
+    transform:rotate(270deg) ;
+}
+
+
+.horizontal2{
+    transform:rotate(90deg) ;
+}
+
+.vertical2{
+    transform:rotate(180deg);
+}
+
+.size1 {
+    width:150px;
+    height:150px;
+}
+
+.size2 {
+    width:200px;
+    height:200px;
+}
+
+.size3 {
+    width:300px;
+    height:300px;
+}
+
+
+.explain{
+    display: flex;
+    max-width: 600px;
+}
+
+
+.title{
+    margin:30px;
+}
+
+.description{
+    margin:10px;
+}

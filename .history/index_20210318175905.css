@@ -1,0 +1,282 @@
+
+html,body{
+ margin:0px;
+ padding:0px;
+ background-color: #FFFDFA;
+ width:100vw;
+ height:100vh;
+}
+
+/* Heading start */
+
+header, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Athiti', sans-serif;
+    width: 100%;
+}
+.first_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+}
+.header_logo {
+    width: 250px;
+    height: 250px;
+}
+.header_logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header_text {
+    width: 600px;
+    text-align: center;
+}
+.second_header {
+    width: 100%;
+    height: 70px;
+} 
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FEF2CA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;  
+
+    position: sticky;
+    top: 0px;  
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+}
+
+li a:hover {
+    background-color: #FFE796;
+}
+
+
+
+/* Iori's part */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} 
+
+
+.maintitle{
+    font-family: 'Permanent Marker';
+    font-style: oblique;
+    margin:0px;
+}
+
+
+
+.container {
+    display:flex;
+    flex-direction: column;
+    margin:0px;
+    width:100%;
+    height:100%;
+    align-items: center ;
+    justify-content: space-around;
+}
+
+
+
+.box{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+    width:100%;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.column{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top:100px; */
+}
+
+.subheader{
+    font-family: 'Athiti', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+
+#BW{
+    width:360px;
+    height:400px;
+    display: flex;
+    align-items: flex-start;
+} 
+
+.logotext{
+   font-family: "Wendy one";
+   font-size: 40px;
+   margin-top:100px; 
+}
+
+
+
+.logoname{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width:360px;
+   height:360px;
+   margin-top:30px;
+ }
+
+.circle{
+    background-color: aqua;
+    width:100px;
+    height:100px;
+    margin:20px;
+    border-radius: 50px;
+}
+
+.color1{
+    background-color: #AFD3D3;
+}
+
+.color2{
+    background-color: #84ADA7;
+}
+
+.color3{
+    background-color:#00809B;
+}
+
+.color4{
+    background-color:#1C75BC;
+}
+
+
+.horizontal1{
+    transform:rotate(270deg) ;
+    opacity: 70%;
+}
+
+
+.horizontal2{
+    transform:rotate(90deg) ;
+    opacity: 70%;
+}
+
+.vertical1{
+    opacity: 70%;
+}
+
+.vertical2{
+    transform:rotate(180deg);
+    opacity: 70%;
+}
+
+.size_icon{
+    display:flex
+}
+
+
+.box.size_icon{
+    display: flex;
+    flex-direction:column;
+}
+
+.size1 {
+    width:150px;
+    height:150px;
+}
+
+.size2 {
+    width:200px;
+    height:200px;
+}
+
+.size3 {
+    width:300px;
+    height:300px;
+}
+
+
+.explain{
+    display: flex;
+    font-family: 'Athiti', sans-serif;
+
+}
+
+
+.title{
+    margin:30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.description{
+    display: flex;
+    max-width: 30%;
+    margin:10px;
+    font-size:20px;
+}
+
+/* 
+@media only screen and (min-width:480px) { 
+
+    .box{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+}
+@media only screen and (min-width:481px) and ( max-width:1024px) {
+    
+    .box{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .box{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: hidden;
+
+    }
+ 
+}  */

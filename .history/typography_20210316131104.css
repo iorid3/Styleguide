@@ -1,0 +1,97 @@
+html, body {
+    margin: 0px;
+    background-color: #FFF8F8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Permanent Marker';
+}
+
+h1 {
+    /* added font family in container */
+    display: flex;
+    min-width: 100%;
+    font-size: 100px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.section {
+    display: flex;
+    min-width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.wendy_one {
+    font-family: 'Wendy One';
+    font-size: 40px;
+    text-align: center;
+    line-height: 50%;
+}
+
+.permanent_marker { 
+    /* added font family in container */
+    font-size: 24px;
+    text-align: center;
+    line-height: 50%;
+}
+
+.athiti {
+    font-family: 'Athiti';
+    font-size: 16px;
+    text-align: center;
+    line-height: 50%;
+}
+
+p {
+    /* font-size for styleguide webpage */
+    font-family: 'Athiti';
+    font-size:30px;
+    width: 50%;
+    text-align: center;
+}
+
+#black_text {
+    font-size: 40px;
+    font-family: 'Wendy One';
+    text-align: center;
+    margin: 0px;
+}
+
+#gradient_text {
+    width:280px;
+    margin-top: -10px;
+}
+
+.athiti_example {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 50%;
+    justify-content: space-evenly;
+}
+
+
+#dry_base_button  {
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+#directions {
+    width: 40%;
+    object-fit: contain;
+}
